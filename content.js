@@ -90,6 +90,10 @@
     // Updates the position of the overlay relative to the video element
     function updateOverlayPosition() {
         const { video } = getVideoAndOverlay();
+        if (!video) {
+            console.log("Video element not found.");
+            return; // Exit the function if no video element is found
+        }
         const rect = video.getBoundingClientRect();
         overlay.style.top = rect.top + 'px';
         overlay.style.left = rect.left + 'px';
