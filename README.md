@@ -28,6 +28,7 @@ Once the extension is installed, it will automatically be active on all web page
 - `X` or `x`: Jump forward in the video by 10 seconds.
 - `Z` or `z`: Jump backward in the video by 10 seconds.
 - `A` or `a`: Reset playback speed to normal (1x).
+- `Q` or `q`: Show current playback speed.
 
 ## Customization
 
